@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+
+<head>
+			
+	<script type="text/javascript">
+
+			
+		function init() {
+			var canvas = document.getElementById("main_canvas");
+			var context = canvas.getContext("2d");
+
+			canvas.width = window.innerWidth;
+			canvas.height = window.innerHeight;
+
+			context.fillStyle = "#FFAA00";
+			context.fillRect(0, 0, window.innerWidth, window.innerHeight);
+		}
+
+	</script>
+	
+</head>
+
+<body onload="init();">
+	<canvas id="main_canvas" width="400px" height="400px"></canvas>
+</body>
+
+</html>
